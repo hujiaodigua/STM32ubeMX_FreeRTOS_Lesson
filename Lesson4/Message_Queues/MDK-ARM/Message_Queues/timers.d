@@ -1,0 +1,16 @@
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+message_queues\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+message_queues\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+message_queues\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+message_queues\timers.o: ../Inc/FreeRTOSConfig.h
+message_queues\timers.o: ../Inc/main.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+message_queues\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h

@@ -1,0 +1,15 @@
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+message_queues\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+message_queues\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+message_queues\croutine.o: ../Inc/FreeRTOSConfig.h
+message_queues\croutine.o: ../Inc/main.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+message_queues\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
