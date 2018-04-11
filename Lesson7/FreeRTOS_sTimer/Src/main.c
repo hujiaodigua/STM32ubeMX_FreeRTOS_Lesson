@@ -127,7 +127,8 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_TIMERS */
   /* start timers, add new ones, ... */
-	osTimerStart(myTimer01Handle, 250); //启动软件定时器
+	osTimerStart(myTimer01Handle, 250); //启动软件定时器,定时器第一个参数为Handle
+																			//根据Handle可以找到要执行的回调,第二个参数则是定时器的计时时间
   /* USER CODE END RTOS_TIMERS */
 
   /* Create the thread(s) */
@@ -253,7 +254,7 @@ void LED1_Task(void const * argument)
   for(;;)
   {
     osDelay(500);
-		HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+		HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);	//	TogglePin切换IO口的状态(这里就是输出高低电平翻转)
   }
   /* USER CODE END 5 */ 
 }
